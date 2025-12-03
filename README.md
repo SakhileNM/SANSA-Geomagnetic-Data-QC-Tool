@@ -104,20 +104,20 @@ Automatic detection and handling of:
 
 ```
 Geomagnetic Data App/
-├── application.py              # Main GUI application (PyQt5)
-├── connectFTP.py               # FTP connection handler for SANSA servers
+├── application.py                     # Main GUI application (PyQt5)
+├── connectFTP.py                      # FTP connection handler for SANSA servers
 ├── plot_convert_SingleOnGUI_FTP.py    # Single station with conversion
 ├── plot_convert_MultipleOnGUI_FTP.py  # Multi-station with conversion
-├── baselineValues.json         # Baseline calibration values
-├── requirements.txt            # Python dependencies
-├── app_icon.ico                # SANSA logo as the application icon
-├── build_sansa_tool.bat        # Build the tool as an executable application
-├── create_installer.bat        # Extract and create the installer file
-├── dYlY3ZRD_400x400.jpg        # SANSA logo
-├── SANSA (004) (2).png         # SANSA logo (in applictaion)
-├── SANSA_Geomagnetic_Tool.spec # Executable specifications
-├── SANSA_Installer.iss         # Inno Setup Script
-└── README.md                   # This file
+├── baselineValues.json                # Baseline calibration values
+├── requirements.txt                   # Python dependencies
+├── app_icon.ico                       # SANSA logo as the application icon
+├── build_sansa_tool.bat               # Build the tool as an executable application
+├── create_installer.bat               # Extract and create the installer file
+├── dYlY3ZRD_400x400.jpg               # SANSA logo
+├── SANSA (004) (2).png                # SANSA logo (in applictaion)
+├── SANSA_Geomagnetic_Tool.spec        # Executable specifications
+├── SANSA_Installer.iss                # Inno Setup Script
+└── README.md                          # This file
 ```
 
 ## Data Sources
@@ -177,4 +177,5 @@ This software is developed for SANSA Space Science research purposes.
 SANSA Space Science
 Hermanus, South Africa
 https://www.sansa.org.za
+
 
