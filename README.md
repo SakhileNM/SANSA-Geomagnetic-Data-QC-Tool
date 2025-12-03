@@ -60,7 +60,7 @@ Automatic detection and handling of:
 
 1. Clone or download the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/SakhileNM/SANSA-Geomagnetic-Data-QC-Tool
    cd "Geomagnetic Data App"
    ```
 
@@ -177,3 +177,4 @@ This software is developed for SANSA Space Science research purposes.
 SANSA Space Science
 Hermanus, South Africa
 https://www.sansa.org.za
+
