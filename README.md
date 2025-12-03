@@ -86,6 +86,8 @@ Automatic detection and handling of:
 2. Follow the installation wizard
 3. Launch from Start Menu or Desktop shortcut
 
+To learn how to create the installer, please refer to the Work Instruction on M-Files. 
+
 ## Usage
 
 1. **Configure your analysis** in the left panel:
@@ -177,5 +179,6 @@ This software is developed for SANSA Space Science research purposes.
 SANSA Space Science
 Hermanus, South Africa
 https://www.sansa.org.za
+
 
 
