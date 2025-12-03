@@ -86,7 +86,9 @@ Automatic detection and handling of:
 2. Follow the installation wizard
 3. Launch from Start Menu or Desktop shortcut
 
-To learn how to create the installer, please refer to the Work Instruction on M-Files (https://sansa.cloudvault.m-files.com/vnext/link/BA84D00E-9167-4344-AE90-844715069F12/show?object=F741FD59-F78A-4708-9A54-B0D56C39BE08&objid=0-22816&version=latest). 
+To learn how to **create the installer**, please refer to the Work Instruction on M-Files: https://sansa.cloudvault.m-files.com/vnext/link/BA84D00E-9167-4344-AE90-844715069F12/show?object=F741FD59-F78A-4708-9A54-B0D56C39BE08&objid=0-22816&version=latest
+
+To access an **official version**, follow the link: https://sansa365-my.sharepoint.com/:u:/g/personal/smkhize_sansa_org_za/IQDvufiS3Lj2Sopw1krIQUkYAe2bBxCaPyk53Mr0tHbVfK0?e=oNNlw3
 
 ## Usage
 
@@ -179,6 +181,7 @@ This software is developed for SANSA Space Science research purposes.
 SANSA Space Science
 Hermanus, South Africa
 https://www.sansa.org.za
+
 
 
 
