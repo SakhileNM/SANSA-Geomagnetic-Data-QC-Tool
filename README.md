@@ -1,40 +1,31 @@
 # SANSA Magnetic Data Analysis Tool
 
-A professional Python application for analyzing and visualizing geomagnetic data from SANSA (South African National Space Agency) magnetometer stations.
+A professional Python application for checking the quality of geomagnetic data from SANSA (South African National Space Agency) magnetic stations.
 
 ## Overview
 
 This tool provides a graphical interface for:
-- Single-station magnetic field component analysis (H, D, Z, F)
-- Multi-station data comparison across different instruments
-- Data quality validation and cleaning
+- Single-station and Multi-station data comparison across different instruments
 - SQD/CTU data format conversion
-- Direct FTP access to SANSA magnetic field data archives
 
 ## Features
 
-### Single Station Analysis
+### Single-Station Single-Instrument Data Analysis
 Detailed plots of magnetic field components:
 - **H** - Horizontal intensity (nT)
 - **D** - Declination (arc-minutes)
 - **Z** - Vertical intensity (nT)
 - **F** - Total field intensity (nT)
 
-### Multi-Station Comparison
+### Multi-Station Multi-Instrument Data Comparison
 Compare magnetic field data from multiple stations and instruments simultaneously to identify regional variations and data quality issues.
-
-### Data Quality Control
-Automatic detection and handling of:
-- Invalid data markers (sentinel values: 88888, 99999)
-- Data gaps and discontinuities
-- Statistical outliers
 
 ### Supported Instruments
 | Code | Instrument Type |
 |------|----------------|
-| OVH | Overhauser magnetometer (scalar F measurements) |
+| OVH | Overhauser magnetometer |
 | DTU | DTU-Space fluxgate magnetometer |
-| FGM1/FGM2 | Fluxgate magnetometers |
+| FGM1/FGM2 | FGE Fluxgate magnetometers |
 | L251 | LEMI-025 magnetometer |
 | SQD | SQUID magnetometer |
 | CTU | CTU magnetometer |
@@ -93,12 +84,12 @@ To access an **official version**, follow the link: https://sansa365-my.sharepoi
 ## Usage
 
 1. **Configure your analysis** in the left panel:
+   - Select single or multi-station mode
    - Select station(s) from the dropdown
    - Choose instrument type(s)
    - Set the date range for analysis
-   - Select single or multi-station mode
 
-2. **Generate plots** by clicking "Plot Comparison" or "Plot Single Station"
+2. **Generate plots** by clicking "Plot Comparison / Single Station"
 
 3. **View results** in the right panel with interactive matplotlib plots
 
@@ -168,19 +159,25 @@ See `requirements.txt` for complete dependency list with versions.
 - Check the SANSA data archive for data availability
 
 ### Performance
-- Large date ranges may take time to process
+- Large date ranges may take time to process (Max. of 2 months recommended)
 - Multi-station comparisons require more memory
-- Consider processing in smaller date chunks for extensive analyses
 
-## License
+## Contributors & License
+The main contributors to the application are SANSA's EDA (Engineering & Data Acquisition) team members:
+- Sakhile Mkhize       (Developer)
+- Mfezeko Rataza       (Developer)
+- Dr. Emmanuel Nahayo  (Geomagnetic Data Specialist)
 
 This software is developed for SANSA Space Science research purposes.
 
 ## Contact
 
+- Email: dap@sansa.org.za
+
 SANSA Space Science
 Hermanus, South Africa
 https://www.sansa.org.za
+
 
 
 
